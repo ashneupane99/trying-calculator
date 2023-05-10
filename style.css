@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, #ff9a8a , rgba(10, 207, 10, 0.775));
+}
+
+.wrapper{
+    margin: 0px;
+    padding: 0 px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.main-body{
+    background: rgb(199, 197, 197);
+    width: 50vw;
+    height: 55vh;
+    border-radius: 1%;
+    padding: 1rem;
+    padding-right: ;
+    display: grid;
+    gap:1rem;
+    grid-template-areas: 
+    "screen screen screen screen"
+    "ac clear divide multiply"
+    "seven eight nine add"
+    "four five six subt"
+    "one two three result"
+    "dot zero zero result";
+}
+/* div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+.screen{
+    /* width: 90%;
+    height: 10%;*/
+    margin: 1rem;
+    background: grey; 
+    grid-area: screen;
+}
+.ac{
+    grid-area: ac;
+}
+.clear{
+    grid-area: clear;
+}
+.divide{
+    grid-area: divide;
+}
+.multiply{
+    grid-area: multiply;
+}
+.seven{
+    grid-area: seven; 
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.add{
+    grid-area: add;
+}
+ .four{
+    grid-area: four;
+ }
+ .five{
+    grid-area:five;
+ }
+ .six{
+    grid-area: six;
+ }
+ .subt{
+    grid-area: subt;
+ }
+ .one{
+    grid-area: one;
+ }
+ .two{
+    grid-area: two;
+ }
+ .three{
+    grid-area: three;
+ }
+ .result{
+    grid-area: result;
+ }
+ .dot{
+    grid-area: dot;
+ }
+ .zero{
+    grid-area:zero;
+ }
